@@ -1,0 +1,93 @@
+---
+title: ""
+pagetitle: "Shows — The Hamstrings"
+title-block-banner: false
+---
+
+```{=html}
+<div class="content-page">
+  <h1 style="text-align:center; text-transform:uppercase; letter-spacing:0.1em; margin-bottom:2rem;">Shows</h1>
+```
+
+::: {.upcoming-shows}
+:::
+
+::: {.past-shows}
+:::
+
+```{=html}
+</div>
+```
+
+```{python}
+#| echo: false
+#| output: asis
+
+import yaml
+from datetime import date, datetime
+
+with open("shows.yml") as f:
+    shows = yaml.safe_load(f)
+
+today = date.today()
+
+upcoming = []
+past = []
+
+for s in shows:
+    d = s["date"] if isinstance(s["date"], date) else datetime.strptime(str(s["date"]), "%Y-%m-%d").date()
+    s["_date"] = d
+    if d >= today:
+        upcoming.append(s)
+    else:
+        past.append(s)
+
+upcoming.sort(key=lambda s: s["_date"])
+past.sort(key=lambda s: s["_date"], reverse=True)
+
+def render_show(s):
+    d = s["_date"]
+    month = d.strftime("%b").upper()
+    day = d.strftime("%-d") if hasattr(d, 'strftime') else str(d.day)
+    year = d.strftime("%Y")
+    venue = s.get("venue", "TBA")
+    city = s.get("city", "")
+    time = s.get("time", "")
+    tickets = s.get("tickets", "")
+    note = s.get("note", "")
+
+    html = f'''<div class="show-card">
+  <div class="show-date">
+    <div class="month">{month}</div>
+    <div class="day">{d.day}</div>
+    <div class="year">{year}</div>
+  </div>
+  <div class="show-details">
+    <h3>{venue}</h3>
+    <p class="venue-info">{city}</p>'''
+    if time:
+        html += f'\n    <p class="show-time">{time}</p>'
+    if note:
+        html += f'\n    <p class="show-time">{note}</p>'
+    html += '\n  </div>'
+    if tickets:
+        html += f'\n  <div class="show-tickets"><a href="{tickets}">Tickets</a></div>'
+    html += '\n</div>'
+    return html
+
+if upcoming:
+    print('<div class="upcoming-section"><h2>Upcoming</h2>')
+    for s in upcoming:
+        print(render_show(s))
+    print('</div>')
+else:
+    print('<div class="upcoming-section"><h2>Upcoming</h2>')
+    print('<p style="text-align:center; color: rgba(255,255,255,0.5);">More shows coming soon… check back!</p>')
+    print('</div>')
+
+if past:
+    print('<div class="past-shows"><h2>Past Shows</h2>')
+    for s in past:
+        print(render_show(s))
+    print('</div>')
+```

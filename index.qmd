@@ -1,0 +1,39 @@
+---
+title: ""
+pagetitle: "The Hamstrings — Atlanta Cover Band"
+title-block-banner: false
+---
+
+```{=html}
+<div class="hero-section">
+  <img src="images/hero-mural.jpg" class="hero-bg" alt="The Hamstrings">
+  <div class="hero-overlay">
+    <img src="images/logo-white.png" class="hero-logo" alt="The Hamstrings logo">
+    <div class="hero-tagline">Atlanta's cover band</div>
+    <a href="mailto:hamstringsatl@gmail.com" class="hero-cta">Book us for your next event</a>
+  </div>
+</div>
+```
+
+```{=html}
+<div class="upcoming-section">
+  <h2>Upcoming Shows</h2>
+  <p>More shows coming up… check back soon!</p>
+  <a href="shows.html" class="hero-cta">View Full Schedule</a>
+</div>
+```
+
+```{=html}
+<div style="text-align:center; padding: 2rem 1rem;">
+  <img src="images/eddies.jpg" alt="The Hamstrings at Eddie's Attic"
+       style="max-width:700px; width:100%; border-radius:4px;">
+</div>
+```
+
+```{=html}
+<div class="booking-section">
+  <h2>Book Us</h2>
+  <p>Want The Hamstrings at your next event?</p>
+  <a href="mailto:hamstringsatl@gmail.com" class="hero-cta">Get in Touch</a>
+</div>
+```

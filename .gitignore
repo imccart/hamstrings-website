@@ -1,0 +1,6 @@
+/.quarto/
+/_freeze/
+*.html
+!docs/**
+.DS_Store
+Thumbs.db

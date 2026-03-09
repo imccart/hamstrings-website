@@ -1,0 +1,59 @@
+project:
+  type: website
+  output-dir: docs
+
+  resources:
+    - "images/**"
+    - "CNAME"
+    - ".nojekyll"
+
+website:
+  title: "The Hamstrings"
+  description: "The Hamstrings — Atlanta's cover band. Live music for your next event."
+  site-url: "https://www.thehamstringsatl.com"
+  favicon: images/logo-dark.png
+
+  navbar:
+    background: dark
+    logo: images/logo-white.png
+    logo-alt: "The Hamstrings"
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "Shows"
+        href: shows.qmd
+      - text: "What We Play"
+        href: repertoire.qmd
+
+    right:
+      - icon: instagram
+        href: https://www.instagram.com/thehamstringsatl
+        aria-label: Instagram
+      - icon: youtube
+        href: https://www.youtube.com/@thehamstringsatl
+        aria-label: YouTube
+      - icon: facebook
+        href: https://www.facebook.com/thehamstringsatl
+        aria-label: Facebook
+      - icon: twitter-x
+        href: https://www.twitter.com/hamstringsatl
+        aria-label: Twitter
+      - icon: envelope-fill
+        href: "mailto:hamstringsatl@gmail.com"
+        aria-label: Email
+
+  page-footer:
+    background: dark
+    left: |
+      &copy; 2025 The Hamstrings
+    center: |
+      Atlanta, GA
+    right: |
+      [Book us for your next event!](mailto:hamstringsatl@gmail.com)
+
+format:
+  html:
+    theme:
+      dark: [darkly, styles.scss]
+    toc: false
+    anchor-sections: false

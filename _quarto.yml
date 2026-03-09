@@ -21,12 +21,12 @@ website:
     left:
       - text: "Home"
         href: index.qmd
+      - text: "About"
+        href: about.qmd
       - text: "Shows"
         href: shows.qmd
       - text: "What We Play"
         href: our-sound.qmd
-      - text: "About"
-        href: about.qmd
 
     right:
       - icon: instagram

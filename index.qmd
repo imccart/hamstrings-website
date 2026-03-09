@@ -12,7 +12,18 @@ format:
   <img src="images/eddies.jpg" class="hero-bg" alt="The Hamstrings">
   <div class="home-content">
     <h2>Upcoming Dates</h2>
-    <p>Mar 15 — Wild Heaven, Toco Hills &nbsp;·&nbsp; Apr 25 — Blue Top, Chamblee &nbsp;·&nbsp; May 16 — Kirkwood Spring Fling</p>
+    <div class="home-shows">
+      <a href="https://www.google.com/maps/search/?api=1&query=Wild+Heaven+Beer+Toco+Hills+Atlanta+GA" target="_blank" class="home-show-row">
+        <span class="home-show-date">Mar 15</span>
+        <span class="home-show-venue">Wild Heaven — Toco Hills</span>
+        <span class="home-show-city">Atlanta, GA</span>
+      </a>
+      <a href="https://www.google.com/maps/search/?api=1&query=Blue+Top+Chamblee+GA" target="_blank" class="home-show-row">
+        <span class="home-show-date">Apr 25</span>
+        <span class="home-show-venue">Blue Top</span>
+        <span class="home-show-city">Chamblee, GA</span>
+      </a>
+    </div>
     <div class="home-links">
       <a href="shows.html" class="hero-cta-outline">View Full Schedule</a>
       <a href="mailto:hamstringsatl@gmail.com" class="hero-cta-outline">Book Us for Your Next Event</a>

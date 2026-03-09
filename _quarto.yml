@@ -25,6 +25,8 @@ website:
         href: shows.qmd
       - text: "What We Play"
         href: our-sound.qmd
+      - text: "About"
+        href: about.qmd
 
     right:
       - icon: instagram

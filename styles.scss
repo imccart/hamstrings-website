@@ -279,6 +279,76 @@ $font-family-sans-serif: "Helvetica Neue", Arial, sans-serif;
   margin-right: auto;
 }
 
+.about-overlap {
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* About page */
+.about-section {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 1rem 2rem;
+}
+
+.about-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.about-photo img {
+  width: 100%;
+  border-radius: 6px;
+}
+
+.about-text p {
+  color: #6b5b52;
+  font-size: 1.05rem;
+  line-height: 1.7;
+  margin-bottom: 1rem;
+}
+
+.members-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.member-card {
+  background: #ffffff;
+  border: 1px solid #e8e0d8;
+  border-radius: 6px;
+  padding: 1.25rem;
+  text-align: center;
+}
+
+.member-card h4 {
+  margin: 0 0 0.3rem 0;
+  font-size: 1rem;
+  color: #3a3330;
+}
+
+.member-card p {
+  margin: 0;
+  color: #8b6f5e;
+  font-size: 0.85rem;
+  font-style: italic;
+}
+
+.about-photo-secondary {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.about-photo-secondary img {
+  width: 100%;
+  border-radius: 6px;
+}
+
 .section-header-overlap h2 {
   display: inline-block;
   background: transparent;
@@ -643,6 +713,14 @@ body {
   .video-grid, .song-grid {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  .members-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .about-content {
+    grid-template-columns: 1fr;
+  }
 }
 
 @media (max-width: 768px) {
@@ -666,5 +744,9 @@ body {
 
   .video-grid, .song-grid {
     grid-template-columns: 1fr;
+  }
+
+  .members-grid {
+    grid-template-columns: repeat(2, 1fr);
   }
 }

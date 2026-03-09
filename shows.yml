@@ -1,27 +1,158 @@
-- date: 2025-05-17
-  venue: Kirkwood Spring Fling
-  city: Atlanta, GA
-  time: ""
-  tickets: ""
-  note: ""
+# The Hamstrings — Show History
+# Update this file when booking new shows, then update shows.qmd and index.qmd to match.
 
-- date: 2025-03-14
-  venue: Eddie's Attic
-  city: Decatur, GA
-  time: ""
-  tickets: ""
-  note: ""
+upcoming:
+  - date: 2026-03-15
+    venue: "Wild Heaven — Toco Hills"
+    city: "Atlanta, GA"
+    time: "3:00 PM – 6:00 PM"
+    map: "Wild+Heaven+Beer+Toco+Hills+Atlanta+GA"
 
-- date: 2024-07-06
-  venue: Mellow Mushroom
-  city: Atlanta, GA
-  time: ""
-  tickets: ""
-  note: ""
+  - date: 2026-04-25
+    venue: "Blue Top"
+    city: "Chamblee, GA"
+    time: "7:00 PM – 10:00 PM"
+    map: "Blue+Top+Chamblee+GA"
 
-- date: 2023-04-29
-  venue: Inman Park Wine Stroll
-  city: Atlanta, GA
-  time: ""
-  tickets: ""
-  note: ""
+  - date: 2026-05-16
+    event: "Kirkwood Spring Fling"
+    city: "Atlanta, GA"
+    time: TBD
+    map: "Bessie+Branham+Recreation+Center+2051+Delano+Dr+NE+Atlanta+GA"
+
+past:
+  - date: 2025-10-19
+    event: "Love Y'all Fall Festival"
+    venue: "Tucker Brewing Company"
+    city: "Tucker, GA"
+    time: "1:00 PM – 5:00 PM"
+    address: "2003 S Bibb Dr"
+
+  - date: 2025-10-11
+    event: "Oakhurst Porchfest 2025"
+    city: "Decatur, GA"
+    time: "1:00 PM – 2:00 PM"
+
+  - date: 2025-10-10
+    venue: "Wild Heaven Beer"
+    city: "Avondale Estates, GA"
+    time: "6:30 PM – 9:30 PM"
+    address: "135B Maple St"
+
+  - date: 2025-10-04
+    event: "Porches and Pies 2025"
+    city: "Atlanta, GA"
+    time: "12:00 PM – 1:00 PM"
+    address: "866 Murphy Ave SW"
+
+  - date: 2025-06-09
+    event: "Eddie's Attic Songwriters Open Mic Night"
+    venue: "Eddie's Attic"
+    city: "Decatur, GA"
+    time: "7:00 PM – 10:00 PM"
+    address: "515 N McDonough St"
+
+  - date: 2025-05-17
+    event: "Kirkwood Spring Fling 2025"
+    venue: "Bessie Branham Recreation Center"
+    city: "Atlanta, GA"
+    time: "1:30 PM – 2:00 PM"
+    address: "2051 Delano Dr NE"
+
+  - date: 2025-03-14
+    event: "The Beatles vs. The Rolling Stones"
+    venue: "Eddie's Attic"
+    city: "Decatur, GA"
+    time: "7:00 PM"
+    address: "515 N McDonough St"
+
+  - date: 2025-03-01
+    event: "Mead Rd Mardi Gras"
+    venue: "The Imperial"
+    city: "Decatur, GA"
+    time: "3:00 PM"
+    address: "726 W College Ave"
+
+  - date: 2024-12-14
+    event: "Decatur Holiday Marketplace"
+    venue: "Clairemont Elementary School"
+    city: "Decatur, GA"
+    time: "11:00 AM – 12:30 PM"
+    address: "155 Erie Ave"
+
+  - date: 2024-11-16
+    venue: "Mellow Mushroom Decatur"
+    city: "Decatur, GA"
+    time: "5:00 PM – 7:00 PM"
+    address: "340 W Ponce de Leon Ave"
+
+  - date: 2024-10-19
+    event: "Oakhurst Porchfest 2024"
+    city: "Decatur, GA"
+    time: "7:00 PM"
+
+  - date: 2024-10-12
+    venue: "Mellow Mushroom Decatur"
+    city: "Decatur, GA"
+    time: "5:00 PM – 7:00 PM"
+    address: "340 W Ponce de Leon Ave"
+
+  - date: 2024-08-03
+    venue: "Mellow Mushroom Decatur"
+    city: "Decatur, GA"
+    time: "2:00 PM – 4:00 PM"
+    address: "340 W Ponce de Leon Ave"
+
+  - date: 2024-07-26
+    venue: "Decatur Square"
+    city: "Decatur, GA"
+    time: "7:00 PM – 8:30 PM"
+    address: "509 N McDonough St"
+
+  - date: 2024-07-13
+    venue: "The Lost Druid Brewery"
+    city: "Avondale Estates, GA"
+    time: "6:00 PM – 8:00 PM"
+    address: "2866 Washington St"
+
+  - date: 2024-07-06
+    venue: "Mellow Mushroom Decatur"
+    city: "Decatur, GA"
+    time: "2:00 PM – 4:00 PM"
+    address: "340 W Ponce de Leon Ave"
+
+  - date: 2024-05-11
+    venue: "The Imperial"
+    city: "Decatur, GA"
+    time: "6:00 PM – 8:00 PM"
+    address: "726 W College Ave"
+
+  - date: 2024-04-12
+    event: "Amplify Decatur 2024"
+    venue: "Mellow Mushroom Decatur"
+    city: "Decatur, GA"
+    time: "6:00 PM – 8:00 PM"
+    address: "340 W Ponce de Leon Ave"
+
+  - date: 2024-03-30
+    venue: "The Lost Druid Brewery"
+    city: "Avondale Estates, GA"
+    time: "6:30 PM – 8:30 PM"
+    address: "2866 Washington St"
+
+  - date: 2024-03-23
+    event: "Tiger Fest 2024"
+    venue: "Talley Street Upper Elementary School"
+    city: "Decatur, GA"
+    time: "12:00 PM – 1:00 PM"
+    address: "2617 Talley St"
+
+  - date: 2023-10-21
+    event: "Inman Park Wine Stroll 2023"
+    city: "Atlanta, GA"
+    time: "4:00 PM – 6:00 PM"
+
+  - date: 2023-10-14
+    event: "Oakhurst Porchfest 2023"
+    city: "Decatur, GA"
+    time: "5:00 PM – 6:00 PM"

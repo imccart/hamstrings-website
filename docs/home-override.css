@@ -1,0 +1,14 @@
+body {
+  background-color: #3a3330 !important;
+}
+
+#quarto-content {
+  display: block !important;
+  background-color: transparent !important;
+}
+
+.quarto-container,
+main.content,
+.page-rows-contents {
+  background-color: transparent !important;
+}

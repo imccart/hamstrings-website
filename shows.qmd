@@ -5,82 +5,156 @@ title-block-banner: false
 ---
 
 ```{=html}
-<div class="content-page">
-  <h1 style="text-align:center; text-transform:uppercase; letter-spacing:0.1em; margin-bottom:2rem;">Shows</h1>
+<div class="page-banner">
+  <img src="images/hero-mural.jpg" class="page-banner-bg" alt="The Hamstrings">
+</div>
+```
 
-  <div class="upcoming-section">
-    <h2>Upcoming</h2>
-    <p style="text-align:center; color: rgba(255,255,255,0.5);">More shows coming soon… check back!</p>
-  </div>
+```{=html}
+<div class="section-header-overlap shows-overlap">
+  <h2>Our Shows</h2>
+</div>
+<div class="shows-columns">
 
-  <!-- To add a show, copy a show-card block and fill in the details: -->
-  <!--
-  <div class="show-card">
-    <div class="show-date">
-      <div class="month">JUN</div>
-      <div class="day">15</div>
-      <div class="year">2026</div>
-    </div>
-    <div class="show-details">
-      <h3>Venue Name</h3>
-      <p class="venue-info">City, GA</p>
-      <p class="show-time">9:00 PM</p>
-    </div>
-    <div class="show-tickets"><a href="https://...">Tickets</a></div>
-  </div>
-  -->
-
-  <div class="past-shows">
-    <h2>Past Shows</h2>
-
-    <div class="show-card">
-      <div class="show-date">
-        <div class="month">MAY</div>
-        <div class="day">17</div>
-        <div class="year">2025</div>
-      </div>
-      <div class="show-details">
-        <h3>Kirkwood Spring Fling</h3>
-        <p class="venue-info">Atlanta, GA</p>
-      </div>
-    </div>
+  <div class="shows-column">
+    <h3 class="shows-column-header">Upcoming</h3>
 
     <div class="show-card">
       <div class="show-date">
         <div class="month">MAR</div>
-        <div class="day">14</div>
-        <div class="year">2025</div>
+        <div class="day">15</div>
+        <div class="year">2026</div>
       </div>
       <div class="show-details">
-        <h3>Eddie's Attic</h3>
-        <p class="venue-info">Decatur, GA</p>
-      </div>
-    </div>
-
-    <div class="show-card">
-      <div class="show-date">
-        <div class="month">JUL</div>
-        <div class="day">6</div>
-        <div class="year">2024</div>
-      </div>
-      <div class="show-details">
-        <h3>Mellow Mushroom</h3>
-        <p class="venue-info">Atlanta, GA</p>
+        <h3>Wild Heaven — Toco Hills</h3>
+        <p class="venue-info"><a href="https://www.google.com/maps/search/?api=1&query=Wild+Heaven+Beer+Toco+Hills+Atlanta+GA" target="_blank">Atlanta, GA</a></p>
+        <p class="show-time">3:00 PM – 6:00 PM</p>
       </div>
     </div>
 
     <div class="show-card">
       <div class="show-date">
         <div class="month">APR</div>
-        <div class="day">29</div>
-        <div class="year">2023</div>
+        <div class="day">25</div>
+        <div class="year">2026</div>
       </div>
       <div class="show-details">
-        <h3>Inman Park Wine Stroll</h3>
-        <p class="venue-info">Atlanta, GA</p>
+        <h3>Blue Top</h3>
+        <p class="venue-info"><a href="https://www.google.com/maps/search/?api=1&query=Blue+Top+Chamblee+GA" target="_blank">Chamblee, GA</a></p>
+        <p class="show-time">7:00 PM – 10:00 PM</p>
+      </div>
+    </div>
+
+    <div class="show-card">
+      <div class="show-date">
+        <div class="month">MAY</div>
+        <div class="day">16</div>
+        <div class="year">2026</div>
+      </div>
+      <div class="show-details">
+        <h3>Kirkwood Spring Fling</h3>
+        <p class="venue-info"><a href="https://www.google.com/maps/search/?api=1&query=Bessie+Branham+Recreation+Center+2051+Delano+Dr+NE+Atlanta+GA" target="_blank">Atlanta, GA</a></p>
+        <p class="show-time">Time TBD</p>
       </div>
     </div>
 
   </div>
+
+  <div class="shows-column">
+    <h3 class="shows-column-header">Recent</h3>
+
+    <div class="show-card past">
+      <div class="show-date">
+        <div class="month">OCT</div>
+        <div class="day">19</div>
+        <div class="year">2025</div>
+      </div>
+      <div class="show-details">
+        <h3>Love Y'all Fall Festival</h3>
+        <p class="venue-info"><a href="https://www.google.com/maps/search/?api=1&query=Tucker+Brewing+Company+2003+S+Bibb+Dr+Tucker+GA" target="_blank">Tucker Brewing Company · Tucker, GA</a></p>
+        <p class="show-time">1:00 PM – 5:00 PM</p>
+      </div>
+    </div>
+
+    <div class="show-card past">
+      <div class="show-date">
+        <div class="month">OCT</div>
+        <div class="day">11</div>
+        <div class="year">2025</div>
+      </div>
+      <div class="show-details">
+        <h3>Oakhurst Porchfest 2025</h3>
+        <p class="venue-info"><a href="https://www.google.com/maps/search/?api=1&query=Oakhurst+Porchfest+Decatur+GA" target="_blank">Decatur, GA</a></p>
+        <p class="show-time">1:00 PM – 2:00 PM</p>
+      </div>
+    </div>
+
+    <div class="show-card past">
+      <div class="show-date">
+        <div class="month">OCT</div>
+        <div class="day">10</div>
+        <div class="year">2025</div>
+      </div>
+      <div class="show-details">
+        <h3>Wild Heaven Beer</h3>
+        <p class="venue-info"><a href="https://www.google.com/maps/search/?api=1&query=Wild+Heaven+Beer+135B+Maple+St+Avondale+Estates+GA" target="_blank">Avondale Estates, GA</a></p>
+        <p class="show-time">6:30 PM – 9:30 PM</p>
+      </div>
+    </div>
+
+    <div class="show-card past">
+      <div class="show-date">
+        <div class="month">OCT</div>
+        <div class="day">4</div>
+        <div class="year">2025</div>
+      </div>
+      <div class="show-details">
+        <h3>Porches and Pies 2025</h3>
+        <p class="venue-info"><a href="https://www.google.com/maps/search/?api=1&query=866+Murphy+Ave+SW+Atlanta+GA" target="_blank">Atlanta, GA</a></p>
+        <p class="show-time">12:00 PM – 1:00 PM</p>
+      </div>
+    </div>
+
+    <div class="show-card past">
+      <div class="show-date">
+        <div class="month">MAY</div>
+        <div class="day">17</div>
+        <div class="year">2025</div>
+      </div>
+      <div class="show-details">
+        <h3>Kirkwood Spring Fling 2025</h3>
+        <p class="venue-info"><a href="https://www.google.com/maps/search/?api=1&query=Bessie+Branham+Recreation+Center+2051+Delano+Dr+NE+Atlanta+GA" target="_blank">Atlanta, GA</a></p>
+        <p class="show-time">1:30 PM – 2:00 PM</p>
+      </div>
+    </div>
+
+    <div class="show-card past">
+      <div class="show-date">
+        <div class="month">MAR</div>
+        <div class="day">14</div>
+        <div class="year">2025</div>
+      </div>
+      <div class="show-details">
+        <h3>The Beatles vs. The Rolling Stones</h3>
+        <p class="venue-info"><a href="https://www.google.com/maps/search/?api=1&query=Eddie's+Attic+515+N+McDonough+St+Decatur+GA" target="_blank">Eddie's Attic · Decatur, GA</a></p>
+        <p class="show-time">7:00 PM</p>
+      </div>
+    </div>
+
+    <div class="show-card past">
+      <div class="show-date">
+        <div class="month">MAR</div>
+        <div class="day">1</div>
+        <div class="year">2025</div>
+      </div>
+      <div class="show-details">
+        <h3>Mead Rd Mardi Gras</h3>
+        <p class="venue-info"><a href="https://www.google.com/maps/search/?api=1&query=The+Imperial+726+W+College+Ave+Decatur+GA" target="_blank">The Imperial · Decatur, GA</a></p>
+        <p class="show-time">3:00 PM</p>
+      </div>
+    </div>
+
+  </div>
+
 </div>
 ```

@@ -1,0 +1,84 @@
+---
+title: ""
+pagetitle: "What We Play — The Hamstrings"
+title-block-banner: false
+---
+
+```{=html}
+<div class="page-banner">
+  <img src="images/hero-mural.jpg" class="page-banner-bg" alt="The Hamstrings">
+</div>
+```
+
+```{=html}
+<div class="section-header-overlap repertoire-overlap">
+  <h2>Covers</h2>
+</div>
+<div class="repertoire-section">
+  <div class="song-grid">
+
+    <a href="https://www.youtube.com/watch?v=fdBcxEQZb1g" class="song-card" target="_blank">
+      <div class="song-title">I've Just Seen a Face</div>
+      <div class="song-artist">The Beatles</div>
+      <div class="song-venue">Eddie's Attic, March 2025</div>
+    </a>
+
+    <a href="https://www.youtube.com/watch?v=UBMRKyQpqJc" class="song-card" target="_blank">
+      <div class="song-title">Oh, Darling</div>
+      <div class="song-artist">The Beatles</div>
+      <div class="song-venue">Eddie's Attic, March 2025</div>
+    </a>
+
+    <a href="https://www.youtube.com/watch?v=4RNU2FaMAjA" class="song-card" target="_blank">
+      <div class="song-title">The Giver</div>
+      <div class="song-artist">Chappell Roan</div>
+      <div class="song-venue">Kirkwood Spring Fling, May 2025</div>
+    </a>
+
+    <a href="https://www.youtube.com/watch?v=It7vj9CXPdI" class="song-card" target="_blank">
+      <div class="song-title">Green Eyes and a Heart of Gold</div>
+      <div class="song-artist">The Lone Bellow</div>
+      <div class="song-venue">Kirkwood Spring Fling, May 2025</div>
+    </a>
+
+    <a href="https://www.youtube.com/watch?v=WtiyyhpgV2Q" class="song-card" target="_blank">
+      <div class="song-title">Feathered Indians</div>
+      <div class="song-artist">Tyler Childers</div>
+      <div class="song-venue">Inman Park Wine Stroll, 2023</div>
+    </a>
+
+    <a href="https://www.youtube.com/watch?v=YEsBUOXVEcA" class="song-card" target="_blank">
+      <div class="song-title">Before He Cheats</div>
+      <div class="song-artist">Carrie Underwood</div>
+      <div class="song-venue">Mellow Mushroom, July 2024</div>
+    </a>
+
+    <a href="https://www.youtube.com/watch?v=p4pcKQYT8n4" class="song-card" target="_blank">
+      <div class="song-title">It's a Little Too Late</div>
+      <div class="song-artist">Tanya Tucker</div>
+      <div class="song-venue">Mellow Mushroom, July 2024</div>
+    </a>
+
+    <a href="https://www.youtube.com/watch?v=u_Cuspc_XeA" class="song-card" target="_blank">
+      <div class="song-title">...Baby One More Time</div>
+      <div class="song-artist">Britney Spears</div>
+      <div class="song-venue">Inman Park Wine Stroll, 2023</div>
+    </a>
+
+    <a href="https://www.youtube.com/watch?v=N_b5nrhzTfM" class="song-card" target="_blank">
+      <div class="song-title">Homesick</div>
+      <div class="song-artist">Noah Kahan</div>
+      <div class="song-venue">Kirkwood Spring Fling, May 2025</div>
+    </a>
+
+  </div>
+</div>
+```
+
+```{=html}
+<div class="booking-section">
+  <h2>Want to hear more?</h2>
+  <p>Check out our <a href="https://www.youtube.com/@thehamstringsatl">YouTube channel</a> or come see us live!</p>
+  <a href="shows.html" class="hero-cta-outline">View Shows</a>
+</div>
+```

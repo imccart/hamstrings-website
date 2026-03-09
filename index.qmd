@@ -2,38 +2,21 @@
 title: ""
 pagetitle: "The Hamstrings — Atlanta Cover Band"
 title-block-banner: false
+format:
+  html:
+    css: home-override.css
 ---
 
 ```{=html}
 <div class="hero-section">
-  <img src="images/hero-mural.jpg" class="hero-bg" alt="The Hamstrings">
-  <div class="hero-overlay">
-    <img src="images/logo-white.png" class="hero-logo" alt="The Hamstrings logo">
-    <div class="hero-tagline">Atlanta's cover band</div>
-    <a href="mailto:hamstringsatl@gmail.com" class="hero-cta">Book us for your next event</a>
+  <img src="images/eddies.jpg" class="hero-bg" alt="The Hamstrings">
+  <div class="home-content">
+    <h2>Upcoming Dates</h2>
+    <p>Mar 15 — Wild Heaven, Toco Hills &nbsp;·&nbsp; Apr 25 — Blue Top, Chamblee &nbsp;·&nbsp; May 16 — Kirkwood Spring Fling</p>
+    <div class="home-links">
+      <a href="shows.html" class="hero-cta-outline">View Full Schedule</a>
+      <a href="mailto:hamstringsatl@gmail.com" class="hero-cta-outline">Book Us for Your Next Event</a>
+    </div>
   </div>
-</div>
-```
-
-```{=html}
-<div class="upcoming-section">
-  <h2>Upcoming Shows</h2>
-  <p>More shows coming up… check back soon!</p>
-  <a href="shows.html" class="hero-cta">View Full Schedule</a>
-</div>
-```
-
-```{=html}
-<div style="text-align:center; padding: 2rem 1rem;">
-  <img src="images/eddies.jpg" alt="The Hamstrings at Eddie's Attic"
-       style="max-width:700px; width:100%; border-radius:4px;">
-</div>
-```
-
-```{=html}
-<div class="booking-section">
-  <h2>Book Us</h2>
-  <p>Want The Hamstrings at your next event?</p>
-  <a href="mailto:hamstringsatl@gmail.com" class="hero-cta">Get in Touch</a>
 </div>
 ```

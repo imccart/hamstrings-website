@@ -729,6 +729,10 @@ body.page-home {
   }
 
   .about-photo-secondary {
+    max-width: 100%;
+  }
+
+  .about-photo {
     display: none;
   }
 

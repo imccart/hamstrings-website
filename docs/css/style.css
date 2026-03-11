@@ -643,10 +643,25 @@ body.page-home {
   }
 
   /* Hero */
+  .hero-section {
+    display: flex;
+    flex-direction: column;
+  }
+
   .hero-bg {
-    object-fit: contain;
     width: 100%;
-    min-height: auto;
+    object-fit: cover;
+    object-position: 50% 45%;
+    height: 50vh;
+  }
+
+  .home-content {
+    position: static;
+    transform: none;
+    left: auto;
+    background: #3a3330;
+    padding: 1.5rem 1rem;
+    max-width: 100%;
   }
 
   .home-content {

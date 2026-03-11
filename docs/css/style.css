@@ -643,11 +643,11 @@ body.page-home {
 
   /* Hero */
   .hero-section {
-    min-height: 85vh;
+    min-height: 60vh;
   }
 
   .hero-bg {
-    min-height: 85vh;
+    min-height: 60vh;
     object-fit: cover;
     object-position: 50% 45%;
   }

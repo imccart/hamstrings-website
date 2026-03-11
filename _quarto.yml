@@ -52,6 +52,13 @@ website:
     center: |
       <div class="footer-content">
         <img src="images/logo-nav.png" class="footer-logo" alt="The Hamstrings">
+        <div class="footer-socials">
+          <a href="https://www.instagram.com/thehamstringsatl" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+          <a href="https://www.youtube.com/@thehamstringsatl" aria-label="YouTube"><i class="bi bi-youtube"></i></a>
+          <a href="https://www.facebook.com/thehamstringsatl" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+          <a href="https://www.twitter.com/hamstringsatl" aria-label="Twitter"><i class="bi bi-twitter-x"></i></a>
+          <a href="mailto:hamstringsatl@gmail.com" aria-label="Email"><i class="bi bi-envelope-fill"></i></a>
+        </div>
         <div class="footer-text">Atlanta, GA &nbsp;·&nbsp; <a href="mailto:hamstringsatl@gmail.com">hamstringsatl@gmail.com</a> &nbsp;·&nbsp; <a href="tel:4049199538">404.919.9538</a></div>
         <div class="footer-copyright">&copy; 2025 The Hamstrings</div>
       </div>

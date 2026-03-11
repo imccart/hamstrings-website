@@ -658,6 +658,23 @@ footer.footer .nav-footer {
   opacity: 0.85;
 }
 
+.footer-socials {
+  display: none;
+  justify-content: center;
+  gap: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.footer-socials a {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 1.2rem;
+  transition: color 0.2s ease;
+}
+
+.footer-socials a:hover {
+  color: #ffffff;
+}
+
 .footer-text {
   font-size: 0.9rem;
   color: rgba(255, 255, 255, 0.7);
@@ -858,13 +875,22 @@ body {
     max-width: 100%;
   }
 
-  /* Footer */
+  /* Footer — swap logo for socials on mobile */
   .footer-logo {
-    max-width: 150px;
+    display: none;
+  }
+
+  .footer-socials {
+    display: flex;
   }
 
   .footer-text {
     font-size: 0.8rem;
+  }
+
+  /* Hide social icons from navbar on mobile */
+  .navbar-nav.ms-auto {
+    display: none !important;
   }
 
   /* Kill brown gap below footer */

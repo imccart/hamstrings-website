@@ -106,6 +106,7 @@ body.page-home {
   display: flex;
   list-style: none;
   gap: 1rem;
+  margin-left: auto;
 }
 
 .nav-socials a {

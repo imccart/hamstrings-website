@@ -642,14 +642,10 @@ body.page-home {
   }
 
   /* Hero */
-  .hero-section {
-    min-height: 60vh;
-  }
-
   .hero-bg {
-    min-height: 60vh;
-    object-fit: cover;
-    object-position: 50% 45%;
+    object-fit: contain;
+    width: 100%;
+    min-height: auto;
   }
 
   .home-content {

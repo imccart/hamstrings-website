@@ -13,6 +13,8 @@ website:
   site-url: "https://www.thehamstringsatl.com"
   favicon: images/logo-dark.png
 
+  search: false
+
   navbar:
     background: dark
     logo: images/logo-white.png

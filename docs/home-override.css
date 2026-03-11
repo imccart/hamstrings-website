@@ -1,10 +1,6 @@
-body {
-  background-color: #3a3330 !important;
-}
-
 #quarto-content {
   display: block !important;
-  background-color: transparent !important;
+  background-color: #3a3330 !important;
 }
 
 .quarto-container,

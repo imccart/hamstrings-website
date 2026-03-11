@@ -650,9 +650,9 @@ body.page-home {
 
   .hero-bg {
     width: 100%;
-    object-fit: cover;
-    object-position: 50% 45%;
-    height: 50vh;
+    height: auto;
+    object-fit: unset;
+    filter: brightness(0.7);
   }
 
   .home-content {
@@ -661,12 +661,6 @@ body.page-home {
     left: auto;
     background: #3a3330;
     padding: 1.5rem 1rem;
-    max-width: 100%;
-  }
-
-  .home-content {
-    bottom: 1rem;
-    padding: 1rem;
     max-width: 100%;
   }
 

@@ -729,7 +729,7 @@ body.page-home {
   }
 
   .about-photo-secondary {
-    max-width: 100%;
+    display: none;
   }
 
   /* Footer: swap logo for socials */

@@ -2,25 +2,26 @@
 # Update this file when booking new shows, then update shows.qmd and index.qmd to match.
 
 upcoming:
-  - date: 2026-03-15
-    venue: "Wild Heaven — Toco Hills"
-    city: "Atlanta, GA"
-    time: "3:00 PM – 6:00 PM"
-    map: "Wild+Heaven+Beer+Toco+Hills+Atlanta+GA"
-
-  - date: 2026-04-25
-    venue: "Blue Top"
-    city: "Chamblee, GA"
-    time: "7:00 PM – 10:00 PM"
-    map: "Blue+Top+Chamblee+GA"
-
   - date: 2026-05-16
     event: "Kirkwood Spring Fling"
     city: "Atlanta, GA"
     time: TBD
     map: "Bessie+Branham+Recreation+Center+2051+Delano+Dr+NE+Atlanta+GA"
 
+  - date: 2026-05-30
+    venue: "Blue Top"
+    city: "Chamblee, GA"
+    time: "7:00 PM – 10:00 PM"
+    map: "Blue+Top+Chamblee+GA"
+
 past:
+  - date: 2026-03-15
+    venue: "Wild Heaven — Toco Hills"
+    city: "Atlanta, GA"
+    time: "3:00 PM – 6:00 PM"
+    address: "Toco Hills"
+
+
   - date: 2025-10-19
     event: "Love Y'all Fall Festival"
     venue: "Tucker Brewing Company"
